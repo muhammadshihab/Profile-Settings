@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.container{
+    max-width: 1500px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 35px;
+    border-radius: 5px;
+
+    .title{
+        font-size: 25px;
+        font-weight: 500;
+        position: relative;
+
+     /*   ::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 3px;
+            width: 30px;
+            background: #9b59b6;
+        }           */
+    }
+
+    form{
+        width: 65%;
+        float:left;
+
+        .user_details{
+            display:flex;
+            flex-flow: wrap;
+            justify-content: space-between;
+            margin: 20px 0 12px 0;
+
+            .input_box{
+                margin-bottom: 15px;
+                width: 27rem;
+               // width: calc(100% / 2 - 20px);
+
+                .details{
+                 //   display: block;
+                    font-weight: 500;
+                    margin-bottom: 5px;
+                }
+
+                input{
+                    height: 45px;
+                    width: 25rem;
+                    padding-left: 15px;
+                    font-size: 16px;
+                    outline: none;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    border-bottom-width: 2px;
+                    transition: all 0.3s ease;
+
+                    :focus, 
+                    :valid{
+                        border-color: #2759FF;
+                    }
+                }
+
+                #bio{
+                    height: 100px;
+                    width: 25rem;
+                    padding-left: 15px;
+                    font-size: 16px;
+                    outline: none;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    border-bottom-width: 2px;
+                    transition: all 0.3s ease;
+                }
+            }
+        }
+
+        .gender_details{
+            .gender_title{
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .category{
+                display: flex;
+                width: 50%;
+                margin: 15px 0;
+                justify-content: space-between;
+
+                label{
+                    display: flex;
+                    align-items: center;
+                }
+
+                .dot{
+                    height: 18px;
+                    width: 18px;
+                    background: #d9d9d9;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                    border: 5px solid transparent;
+                    transition: all 0.3s ease;
+                }
+            }
+            
+            #dot-1:checked ~ .category label .one,
+            #dot-2:checked ~ .category label .two,
+            #dot-3:checked ~ .category label .three{
+                border-color: #d9d9d9;
+                background: #2759FF;
+            }
+        }
+
+        .button{
+            float: right;
+            height: 45px;
+            margin: 40px 20px 40px 0;
+
+            input{
+                height: 100%;
+                width: 150px;
+                outline: none;
+                color: #fff;
+                border: none;
+                font-size: 18px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                border-radius: 5px;
+                background: #2759FF;
+            }
+        }
+    }
+    
+    form input[type="radio"]{
+        display: none;
+    }
+ 
+    .right_template{
+        float:right;
+        width: 35%;
+       
+            .height{
+            border-left: 1px solid black;
+            height: 680px;
+            float: left;
+            margin:10px;
+        }
+
+        img{
+            width:200px;
+            border-radius: 50%;
+            margin-left: 25%;
+            margin-top: 35%;
+        }
+
+         .name{
+             text-align: center;
+         }
+    }
+}
