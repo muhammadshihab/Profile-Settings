@@ -1,0 +1,194 @@
+/* Extra small devices (phones, 600px and down) */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.container {
+  max-width: 100%;
+  width: 100%;
+  background: #fff;
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+
+.container .title {
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 5px;
+  position: relative;
+  /*   ::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 3px;
+            width: 30px;
+            background: #9b59b6;
+        }      */     
+}
+
+.container form .user_details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+.container form .user_details .input_box {
+  margin-bottom: 15px;
+  margin-left: 25px;
+  width: 200px;
+}
+
+.container form .user_details .input_box .details {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.container form .user_details .input_box input {
+  height: 45px;
+  width: 25rem;
+  padding-left: 15px;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border-bottom-width: 2px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container form .user_details .input_box input:focus,
+.container form .user_details .input_box input:valid {
+  border-color: #2759FF;
+}
+
+.container form .user_details .input_box #bio {
+  height: 100px;
+  width: 25rem;
+  padding-left: 15px;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border-bottom-width: 2px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container form .gender_details .gender_title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.container form .gender_details .category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 15px 0 0 25px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container form .gender_details .category label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container form .gender_details .category .dot {
+  height: 18px;
+  width: 18px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 5px solid transparent;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container form .gender_details #dot-1:checked ~ .category label .one,
+.container form .gender_details #dot-2:checked ~ .category label .two,
+.container form .gender_details #dot-3:checked ~ .category label .three {
+  border-color: #d9d9d9;
+  background: #2759FF;
+}
+
+.container form .button {
+  float: left;
+  height: 45px;
+  margin: 40px 20px 40px 25px;
+}
+
+.container form .button input {
+  height: 100%;
+  width: 150px;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  background: #2759FF;
+}
+
+.container form input[type="radio"] {
+  display: none;
+}
+
+.container .left_template {
+  margin-top: 40%;
+}
+ 
+.container .right_template .height {
+  border-left: 1px solid black;
+  height: 680px;
+ 
+  margin: 10px;
+  display: none;
+}
+
+.container .right_template img {
+  width: 100px;
+  border-radius: 50%;
+  margin-left: -100%;
+  margin-top: 1%;
+}
+
+.container .right_template .name {
+  text-align: center;
+  margin-left: -235%;
+}
+
+/*# sourceMappingURL=main.css.map */
