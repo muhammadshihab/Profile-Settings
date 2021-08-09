@@ -39,9 +39,6 @@ body{
     }
 
     form{
-        width: 65%;
-        float:left;
-
         .user_details{
             display:flex;
             flex-flow: wrap;
@@ -149,6 +146,12 @@ body{
     form input[type="radio"]{
         display: none;
     }
+
+    .left_template{
+        width: 65%;
+        float:left;
+
+    }
  
     .right_template{
         float:right;
@@ -171,5 +174,39 @@ body{
          .name{
              text-align: center;
          }
+    }
+}
+
+@media(max-width: 584px){
+    .container{
+        max-width: 100%;
+    }
+    form{
+        .user_details{
+            .input_box{
+                margin-bottom: 15px;
+                width: 100%;
+            }
+        }
+        .category{
+            width: 100%;
+        }
+    }
+     .content form .user_details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user_details::-webkit-scrollbar{
+    width: 5px;
+  }
+}
+
+@media(max-width: 250px){
+    .container{
+        .content{
+            .category{
+                flex-direction: column;
+            }
+        }
     }
 }

@@ -44,11 +44,6 @@ body {
         }           */
 }
 
-.container form {
-  width: 65%;
-  float: left;
-}
-
 .container form .user_details {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -84,8 +79,8 @@ body {
   transition: all 0.3s ease;
 }
 
-.container form .user_details .input_box input:focus,
-.container form .user_details .input_box input:valid {
+.container form .user_details .input_box input :focus,
+.container form .user_details .input_box input :valid {
   border-color: #2759FF;
 }
 
@@ -168,6 +163,11 @@ body {
   display: none;
 }
 
+.container .left_template {
+  width: 65%;
+  float: left;
+}
+
 .container .right_template {
   float: right;
   width: 35%;
@@ -189,5 +189,34 @@ body {
 
 .container .right_template .name {
   text-align: center;
+}
+
+@media (max-width: 584px) {
+  .container {
+    max-width: 100%;
+  }
+  form .user_details .input_box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category {
+    width: 100%;
+  }
+  .content form .user_details {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user_details::-webkit-scrollbar {
+    width: 5px;
+  }
+}
+
+@media (max-width: 250px) {
+  .container .content .category {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=main.css.map */
