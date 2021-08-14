@@ -12,7 +12,7 @@
 body {
   display: -webkit-box;
   display: -ms-flexbox;
-  height: 100vh;
+  height: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -61,7 +61,7 @@ body {
 .container form .user_details .input_box {
   margin-bottom: 15px;
   margin-left: 25px;
-  width: 200px;
+  width: 130px;
 }
 
 .container form .user_details .input_box .details {
@@ -168,14 +168,10 @@ body {
 }
 
 .container .left_template {
-  margin-top: 40%;
+  margin-top: 45%;
 }
  
 .container .right_template .height {
-  border-left: 1px solid black;
-  height: 680px;
- 
-  margin: 10px;
   display: none;
 }
 
