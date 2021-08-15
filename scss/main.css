@@ -79,8 +79,8 @@ body {
   transition: all 0.3s ease;
 }
 
-.container form .user_details .input_box input :focus,
-.container form .user_details .input_box input :valid {
+.container form .user_details .input_box input:focus,
+.container form .user_details .input_box input:valid {
   border-color: #2759FF;
 }
 
