@@ -69,8 +69,8 @@
   transition: all 0.3s ease;
 }
 
-.container .user_details .input_box input :focus,
-.container .user_details .input_box input :valid {
+.container .user_details .input_box input:focus,
+.container .user_details .input_box input:valid {
   border-color: #2759FF;
 }
 
