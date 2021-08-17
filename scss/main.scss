@@ -147,7 +147,7 @@ nav{
 }
 
 @media screen and (max-width: 800px) {
-    .container{
+    .main_container{
         width: 100%;
         
         .pic_name{
@@ -181,7 +181,7 @@ nav{
 }
 
 @media screen and (max-width: 600px) {
-    .container{
+    .main_container{
     
         .user_details{
             .input_box{
@@ -205,19 +205,19 @@ nav{
 }
 
 @media screen and (max-width: 1490px) {
-    .container{
+    .main_container{
         width: 85%;
     }
 }
 
 @media screen and (max-width: 1230px) {
-    .container{
+    .main_container{
         width: 100%;
     }
 }
 
 @media screen and (max-width: 1080px) {
-    .container{
+    .main_container{
         
         .pic_name{
             img{
@@ -231,7 +231,7 @@ nav{
 }
 
 @media screen and (max-width: 949px) {
-    .container{
+    .main_container{
 
         .pic_name{
             float: none;

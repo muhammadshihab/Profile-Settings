@@ -162,84 +162,84 @@ nav .container .navbar-nav .nav-item button i {
 }
 
 @media screen and (max-width: 800px) {
-  .container {
+  .main_container {
     width: 100%;
   }
-  .container .pic_name {
+  .main_container .pic_name {
     float: none;
   }
-  .container .pic_name img {
+  .main_container .pic_name img {
     width: 150px;
     margin-top: 10px;
   }
-  .container .vr_line {
+  .main_container .vr_line {
     display: none;
   }
-  .container .user_details {
+  .main_container .user_details {
     margin-top: 7%;
     width: 100%;
   }
-  .container .user_details .input_box {
+  .main_container .user_details .input_box {
     margin: 0 auto;
     width: 70%;
   }
-  .container .category {
+  .main_container .category {
     width: 80%;
     margin-left: 10%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .container .user_details .input_box {
+  .main_container .user_details .input_box {
     width: 75%;
     margin: 0 auto;
   }
-  .container .user_details .input_box input {
+  .main_container .user_details .input_box input {
     margin-bottom: 15px;
   }
-  .container .category {
+  .main_container .category {
     width: 90%;
   }
-  .container .user_details::-webkit-scrollbar {
+  .main_container .user_details::-webkit-scrollbar {
     width: 5px;
   }
 }
 
 @media screen and (max-width: 1490px) {
-  .container {
+  .main_container {
     width: 85%;
   }
 }
 
 @media screen and (max-width: 1230px) {
-  .container {
+  .main_container {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 1080px) {
-  .container .pic_name img {
+  .main_container .pic_name img {
     width: 180px;
   }
-  .container .vr_line {
+  .main_container .vr_line {
     margin: 20px 20px;
   }
 }
 
 @media screen and (max-width: 949px) {
-  .container .pic_name {
+  .main_container .pic_name {
     float: none;
   }
-  .container .pic_name img {
+  .main_container .pic_name img {
     margin-top: 15px;
   }
-  .container .vr_line {
+  .main_container .vr_line {
     display: none;
   }
-  .container .user_details {
+  .main_container .user_details {
     width: 100%;
   }
-  .container .user_details h3 {
+  .main_container .user_details h3 {
     margin-top: 20px;
   }
 }
