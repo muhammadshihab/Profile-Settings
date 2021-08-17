@@ -9,12 +9,31 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.container{
+nav{
+    .container{
+        .navbar-nav{
+            .nav-item{
+                height: 40px;
+                width:40px;
+
+                button{
+                    display: grid;
+                    place-items: center;
+                    i{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main_container{
     width: 70%;
-  //  background-color: aqua;
+    background-color: #f7f7f7;
     margin: 0 auto;
-    padding: 8px;
-    box-shadow: rgba(0, 0, 0, 0.247) 1px 1px 15px 1px;
+    padding: 15px;
+    
 
     .pic_name{
         float: right;
