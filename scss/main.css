@@ -85,8 +85,8 @@ nav .container .navbar-nav .nav-item button i {
   transition: all 0.3s ease;
 }
 
-.main_container .user_details .input_box input :focus,
-.main_container .user_details .input_box input :valid {
+.main_container .user_details .input_box input:focus,
+.main_container .user_details .input_box input:valid {
   border-color: #2759FF;
 }
 
