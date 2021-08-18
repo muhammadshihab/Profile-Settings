@@ -7,6 +7,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
 nav{
     .container{
         .navbar-nav{
@@ -24,7 +29,7 @@ nav{
         }
     }
 }
-
+ 
 .main_container{
     width: 70%;
     background-color: #f7f7f7;
@@ -187,7 +192,6 @@ nav{
 
 @media screen and (max-width: 1150px) {
     .main_container{
-        
         .pic_name{
             float: none;
              img{

@@ -7,6 +7,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
 nav .container .navbar-nav .nav-item {
   height: 40px;
   width: 40px;
@@ -85,22 +90,10 @@ nav .container .navbar-nav .nav-item button i {
   transition: all 0.3s ease;
 }
 
-
-
-
-
-
-/*
-.main_container .user_details .input_box input: focus,
-.main_container .user_details .input_box input: valid{
+.main_container .user_details .input_box input :focus,
+.main_container .user_details .input_box input :valid {
   border-color: #2759FF;
 }
-*/
-
-
-
-
-
 
 .main_container .user_details .input_box textarea {
   width: 100%;
