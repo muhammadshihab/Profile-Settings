@@ -26,7 +26,9 @@ nav .container .navbar-nav .nav-item button i {
   width: 70%;
   background-color: #f7f7f7;
   margin: 0 auto;
-  padding: 8px;
+  padding: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.247) 1px 1px 15px 1px;
+          box-shadow: rgba(0, 0, 0, 0.247) 1px 1px 15px 1px;
 }
 
 .main_container .pic_name {
@@ -161,6 +163,60 @@ nav .container .navbar-nav .nav-item button i {
   background: #2759FF;
 }
 
+@media screen and (max-width: 1850px) {
+  .main_container {
+    width: 80%;
+  }
+  .main_container .vr_line {
+    margin: 20px 20px;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .main_container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .main_container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1275px) {
+  .main_container {
+    width: 100%;
+  }
+  .main_container .pic_name h2 {
+    font-size: 30px;
+  }
+  .main_container .pic_name h4 {
+    font-size: 20px;
+  }
+  .main_container .pic_name img {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .main_container .pic_name {
+    float: none;
+  }
+  .main_container .pic_name img {
+    margin-top: 15px;
+  }
+  .main_container .vr_line {
+    display: none;
+  }
+  .main_container .user_details {
+    width: 100%;
+  }
+  .main_container .user_details h3 {
+    margin-top: 35px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .main_container {
     width: 100%;
@@ -202,45 +258,6 @@ nav .container .navbar-nav .nav-item button i {
   }
   .main_container .user_details::-webkit-scrollbar {
     width: 5px;
-  }
-}
-
-@media screen and (max-width: 1490px) {
-  .main_container {
-    width: 85%;
-  }
-}
-
-@media screen and (max-width: 1230px) {
-  .main_container {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 1080px) {
-  .main_container .pic_name img {
-    width: 180px;
-  }
-  .main_container .vr_line {
-    margin: 20px 20px;
-  }
-}
-
-@media screen and (max-width: 949px) {
-  .main_container .pic_name {
-    float: none;
-  }
-  .main_container .pic_name img {
-    margin-top: 15px;
-  }
-  .main_container .vr_line {
-    display: none;
-  }
-  .main_container .user_details {
-    width: 100%;
-  }
-  .main_container .user_details h3 {
-    margin-top: 20px;
   }
 }
 /*# sourceMappingURL=main.css.map */
